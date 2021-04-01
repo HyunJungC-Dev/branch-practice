@@ -2,10 +2,10 @@ def some_func_1():
     return "hello"
 
 
-def some_func_2():
-    print
+def some_func_2(word):
+    return word
 
 
 if __name__ == '__main__':
-    print(some_func_1())
-    print(some_func_2())
+    user_word = input("Type anything: ")
+    print(some_func_2(user_word))
