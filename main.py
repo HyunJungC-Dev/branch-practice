@@ -1,3 +1,4 @@
 # print function on stem branch
-for _ in range(10):
-    print('hello, python!')
+for i in range(1, 10+1):
+    if i % 3 == 0:
+        print(f'{i}: hello, python on stem!')
